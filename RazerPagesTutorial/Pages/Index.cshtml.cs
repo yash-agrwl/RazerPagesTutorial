@@ -12,6 +12,8 @@ namespace RazerPagesTutorial.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public string Message { get; set; }
+
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -19,7 +21,7 @@ namespace RazerPagesTutorial.Pages
 
         public void OnGet()
         {
-
+            Message = "Hello World! The time now is " + DateTime.Now.ToLongTimeString(); 
         }
     }
 }
