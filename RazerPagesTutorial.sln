@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazerPagesTutorial", "RazerPagesTutorial\RazerPagesTutorial.csproj", "{7588447D-E59F-4555-87DB-D9029E62B630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesTutorial.Models", "RazorPagesTutorial.Models\RazorPagesTutorial.Models.csproj", "{66D9D577-8A31-4AB2-8C79-9E625759AB66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7588447D-E59F-4555-87DB-D9029E62B630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7588447D-E59F-4555-87DB-D9029E62B630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7588447D-E59F-4555-87DB-D9029E62B630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D9D577-8A31-4AB2-8C79-9E625759AB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D9D577-8A31-4AB2-8C79-9E625759AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D9D577-8A31-4AB2-8C79-9E625759AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D9D577-8A31-4AB2-8C79-9E625759AB66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
